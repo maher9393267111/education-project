@@ -204,7 +204,7 @@ if (router.pathname === '/sign-in' || router.pathname === '/sign-up' || router.p
                         </li> */}
 
 <li>
-                          <Link href="/home-3">
+                          <Link href="/">
                             <a>Home</a>
                           </Link>
                         </li>
