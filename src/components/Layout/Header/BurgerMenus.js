@@ -54,7 +54,33 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
           </div>
           <div className="mm-menu">
             <ul>
-              <li className={home ? "has-droupdown active" : "has-droupdown"}>
+
+            <li>
+                <Link href="/sign-up">
+                  <a>Register</a>
+                </Link>
+              </li>
+
+
+              <li>
+                <Link href="/sign-in">
+                  <a>Login</a>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/course-grid">
+                  <a>Courses</a>
+                </Link>
+              </li>
+
+
+
+
+
+
+
+              {/* <li className={home ? "has-droupdown active" : "has-droupdown"}>
                 <a
                   onClick={() => {
                     openMobileMenu("home");
@@ -142,7 +168,12 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                       <a>Event Details</a>
                     </Link>
                   </li>
-                  <li>
+
+
+
+
+                   
+                   <li>
                     <Link href="/cart">
                       <a>My Cart</a>
                     </Link>
@@ -156,7 +187,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                     <Link href="/checkout">
                       <a>Checkout</a>
                     </Link>
-                  </li>
+                  </li> 
                   <li>
                     <Link href="/sign-in">
                       <a>Sign In</a>
@@ -167,13 +198,13 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                       <a>Sign Up</a>
                     </Link>
                   </li>
-                  <li>
+                   <li>
                     <Link href="/error">
                       <a>Error</a>
                     </Link>
-                  </li>
+                  </li> 
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact">
                   <a>Contact</a>
