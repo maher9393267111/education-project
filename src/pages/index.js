@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from '../components/Layout/Header/Header';
-import Footer from '../components/Layout/Footer/Footer';
-import HomeMain from '../components/Home/HomeMain';
+import HomeThreeMain from '../components/HomeThree/HomeThreeMain';
+import FooterThree from '../components/Layout/Footer/FooterStyleThree';
+import HeaderStyleFive from '../components/Layout/Header/HeaderStyleFive';
+import HeaderStyleThree from '../components/Layout/Header/HeaderStyleThree';
 
-class Index extends React.Component {
+
+class HomeThree extends React.Component {
 
     static getInitialProps({store}) {}
 
@@ -14,14 +16,15 @@ class Index extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <Header />
-            <HomeMain />
-            <Footer />
+            {/* <HeaderStyleFive /> */}
+            < HeaderStyleThree/>
+            <HomeThreeMain />
+            <FooterThree />
             </React.Fragment>
         );
     }
 }
 
 
-export default Index;
+export default HomeThree;
 
