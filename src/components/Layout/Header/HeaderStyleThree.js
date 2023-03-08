@@ -16,11 +16,11 @@ const HeaderThree = () => {
     setPath(router.pathname);
     console.log('path: ' +router.pathname)
 
-if (router.pathname === 'sign-in' || router.pathname === 'sign-up') {
+if (router.pathname === '/sign-in' || router.pathname === '/sign-up' || router.pathname === '/course-details') {
 
   console.log('ADD Sticky Menu');
   const header = document.querySelector(".header__area");
-  header.classList.remove("sticky");
+  header.classList.add("sticky")
 
 }
 
