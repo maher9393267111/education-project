@@ -30,7 +30,7 @@ export default function App() {
         modules={[FreeMode, Navigation, Thumbs, EffectFade]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-4.jpg'})`}}>
                 <div className="container">
                     <div className="row">
@@ -45,9 +45,9 @@ export default function App() {
                     </div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'https://educal-react.vercel.app/assets/img/slider/slider-3.jpg'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -63,7 +63,7 @@ export default function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-2.jpg'})`}}>
+            <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'https://educal-react.vercel.app/assets/img/slider/slider-1.jpg'})`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-7 col-xl-8 col-lg-9 col-md-9 col-sm-10">
@@ -78,7 +78,7 @@ export default function App() {
                 </div>
             </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="single-slider swiper-slide slider__height slider__overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-3.jpg'})`}}>
                 <div className="container">
                     <div className="row">
@@ -93,7 +93,7 @@ export default function App() {
                     </div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <Swiper
         onSwiper={setThumbsSwiper}

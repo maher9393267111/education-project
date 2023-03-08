@@ -65,7 +65,7 @@ class TestimonialThree extends Component {
 
                             <div className="testimonial__info-2 mb-45">
                               <h4>James Lee,</h4>
-                              <span>Student @Educal University</span>
+                              <span>Student  University</span>
                             </div>
 
                             <div className="testimonial__nav-thumb">
@@ -91,7 +91,7 @@ class TestimonialThree extends Component {
 
                             <div className="testimonial__info-2 mb-45">
                               <h4>James Lee,</h4>
-                              <span>Student @Educal University</span>
+                              <span>Student @ University</span>
                             </div>
 
                             <div className="testimonial__nav-thumb">
@@ -117,7 +117,7 @@ class TestimonialThree extends Component {
 
                             <div className="testimonial__info-2 mb-45">
                               <h4>James Lee,</h4>
-                              <span>Student @Educal University</span>
+                              <span>Student @ University</span>
                             </div>
 
                             <div className="testimonial__nav-thumb">
@@ -143,7 +143,7 @@ class TestimonialThree extends Component {
 
                             <div className="testimonial__info-2 mb-45">
                               <h4>James Lee,</h4>
-                              <span>Student @Educal University</span>
+                              <span>Student @ University</span>
                             </div>
 
                             <div className="testimonial__nav-thumb">

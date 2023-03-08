@@ -238,7 +238,7 @@ class EventDetailsMain extends Component {
                       <div className="events__sponsor-info">
                         <h3>Thomas R. Toe</h3>
                         <h4>
-                          Email: <span>support@educal.com</span>
+                          Email: <span>support@.com</span>
                         </h4>
                         <div className="events__social d-xl-flex align-items-center">
                           <h4>Share:</h4>

@@ -87,6 +87,69 @@ class Course extends Component {
                         </div>
                      </div>
                   </div>
+                  <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                     <div className="course__item course__item-2 white-bg mb-30 transition-3">
+                        <div className="course__thumb fix w-img">
+                           <Link href="/course-details"><a><img src="assets/img/course/home-3/course-1.jpg" alt="img not found" /></a></Link>
+                        </div>
+                        <div className="course__content-2">
+                           <h3 className="course__title-2"><Link href="/course-details"><a>Product Manager Learn the Skills & job.</a></Link></h3>
+                           <p>Top instructors from around the world teach millions of students on Quillow. Get unlimited.</p>
+                           <div className="course__bottom d-sm-flex justify-content-between align-items-center">
+                              <div className="course__teacher-2 d-flex align-items-center">
+                                 <div className="course__teacher-thumb-2 mr-20">
+                                    <img src="assets/img/course/teacher/home-3/teacher-1.jpg" alt="img not found" />
+                                    <div className="course__teacher-rating">
+                                        <i className="fas fa-star"></i>
+                                    </div>
+                                 </div>
+                                 <div className="course__teacher-info">
+                                    <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
+                                    <span>Product Designer</span>
+                                 </div>
+                              </div>
+                              <div className="course__meta">
+                                 <div className="course__lesson">
+                                    <span><i className="fas fa-book"></i>43 Lesson</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                     <div className="course__item course__item-2 white-bg mb-30 transition-3">
+                        <div className="course__thumb fix w-img">
+                           <Link href="/course-details"><a><img src="assets/img/course/home-3/course-2.jpg" alt="img not found" /></a></Link>
+                        </div>
+                        <div className="course__content-2">
+                           <h3 className="course__title-2"><Link href="/course-details"><a>The Importance Of Intrinsic for Students.</a></Link></h3>
+                           <p>Top instructors from around the world teach millions of students on Quillow. Get unlimited.</p>
+                           <div className="course__bottom d-sm-flex justify-content-between align-items-center">
+                              <div className="course__teacher-2 d-flex align-items-center">
+                                 <div className="course__teacher-thumb-2 mr-20">
+                                    <img src="assets/img/course/teacher/home-3/teacher-2.jpg" alt="img not found" />
+                                    <div className="course__teacher-rating">
+                                        <i className="fas fa-star"></i>
+                                    </div>
+                                 </div>
+                                 <div className="course__teacher-info">
+                                    <h6><Link href="/instructor-details"><a>JCraig Weber</a></Link></h6>
+                                    <span>UX Designer</span>
+                                 </div>
+                              </div>
+                              <div className="course__meta">
+                                 <div className="course__lesson">
+                                    <span><i className="fas fa-book"></i>30 Lesson</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+
+
                </div>
             </div>
          </section>

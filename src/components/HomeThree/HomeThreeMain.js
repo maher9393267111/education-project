@@ -23,36 +23,44 @@ class HomeThreeMain extends Component {
 				<SliderStyleOne />
 				{/* slider-end */}
 
+
+      {/* course-start */}
+	  <Course />
+				{/* course-end */}
+
+
+    {/* teacher-start */}
+	<Teacher />
+				{/* teacher-end */}
+
+
+
 	            {/* about-start */}
-				<About />
+				{/* <About /> */}
 				{/* about-end */}
 
 				{/* brand-start */}
-				<BrandWithNoSSR />
+				{/* <BrandWithNoSSR /> */}
 				{/* brand-end */}
 
-                {/* course-start */}
-				<Course />
-				{/* course-end */}
+          
 
-                {/* teacher-start */}
-				<Teacher />
-				{/* teacher-end */}
+            
 
                 {/* cta-start */}
-				<CtaThree />
+				{/* <CtaThree /> */}
 				{/* cta-end */}
 
 				{/* testimonial-start */}
-				<TestimonialThree />
+				{/* <TestimonialThree /> */}
 				{/* testimonial-end */}
 
                 {/* whychoose-start */}
-				<WhyChoose />
+				{/* <WhyChoose /> */}
 				{/* whychoose-end */}
 
                 {/* blog-start */}
-				<Blog />
+				{/* <Blog /> */}
 				{/* blog-end */}
 
         	</main>

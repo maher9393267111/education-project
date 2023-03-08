@@ -14,10 +14,24 @@ const HeaderThree = () => {
   const [path, setPath] = useState("");
   useEffect(() => {
     setPath(router.pathname);
+    console.log('path: ' +router.pathname)
+
+if (router.pathname === 'sign-in' || router.pathname === 'sign-up') {
+
+  console.log('ADD Sticky Menu');
+  const header = document.querySelector(".header__area");
+  header.classList.remove("sticky");
+
+}
+
+
   }, [router]);
 
   // Sticky Menu Area start
   useEffect(() => {
+
+
+
     window.addEventListener("scroll", sticky);
     return () => {
       window.removeEventListener("scroll", sticky);
@@ -37,7 +51,7 @@ const HeaderThree = () => {
     <React.Fragment>
       <Head>
         <title>
-          Educal – Online Course and Education React, Nextjs Template
+           – Online Course and Education React, Nextjs Template
         </title>
         <link
           href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
@@ -69,7 +83,9 @@ const HeaderThree = () => {
                       </a>
                     </Link>
                   </div>
-                  <div className="header__category d-none d-lg-block">
+
+
+                  {/* <div className="header__category d-none d-lg-block">
                     <nav>
                       <ul>
                         <li>
@@ -152,7 +168,11 @@ const HeaderThree = () => {
                         </li>
                       </ul>
                     </nav>
-                  </div>
+                  </div> */}
+
+
+
+
                 </div>
               </div>
               <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
@@ -160,7 +180,7 @@ const HeaderThree = () => {
                   <div className="main-menu main-menu-3 d-none d-xl-block">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className="has-dropdown">
+                        {/* <li className="has-dropdown">
                           <Link href="/">
                             <a>Home</a>
                           </Link>
@@ -181,8 +201,28 @@ const HeaderThree = () => {
                               </Link>
                             </li>
                           </ul>
+                        </li> */}
+
+<li>
+                          <Link href="/home-3">
+                            <a>Home</a>
+                          </Link>
                         </li>
-                        <li className="has-dropdown">
+
+
+
+
+                        <li>
+                          <Link href="/course-grid">
+                            <a>Courses</a>
+                          </Link>
+                        </li>
+
+
+
+
+
+                        {/* <li className="has-dropdown">
                           <Link href="/course-grid">
                             <a>Courses</a>
                           </Link>
@@ -208,8 +248,13 @@ const HeaderThree = () => {
                               </Link>
                             </li>
                           </ul>
-                        </li>
-                        <li className="has-dropdown">
+                        </li> */}
+
+
+{/* --------------- */}
+
+
+                        {/* <li className="has-dropdown">
                           <Link href="/course-grid">
                             <a>Pages</a>
                           </Link>
@@ -265,7 +310,7 @@ const HeaderThree = () => {
                               </Link>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
                         <li>
                           <Link href="/contact">
                             <a>Contact</a>
@@ -274,7 +319,7 @@ const HeaderThree = () => {
                       </ul>
                     </nav>
                   </div>
-                  <div className="header__search p-relative ml-50 d-none d-md-block">
+                  {/* <div className="header__search p-relative ml-50 d-none d-md-block">
                     <form action="#">
                       <input type="text" placeholder="Search..." />
                       <button type="submit">
@@ -301,8 +346,11 @@ const HeaderThree = () => {
                         <span className="cart-item">2</span>
                       </span>
                     </div>
-                  </div>
-                  <div className="header__cart header__cart--responsive header__cart--responsive__white">
+                  </div> */}
+
+
+                  {/* ---------------------- */}
+                  {/* <div className="header__cart header__cart--responsive header__cart--responsive__white">
                     <span
                       className="cart-toggle-btn"
                       onClick={() => {
@@ -321,11 +369,18 @@ const HeaderThree = () => {
                       </div>
                       <span className="cart-item">2</span>
                     </span>
-                  </div>
-                  <div className="header__btn ml-20 d-none d-sm-block">
-                    <Link href="/contact">
-                      <a className="e-btn">Try for free</a>
+                  </div> */}
+                  <div className="header__btn    ml-20 d-none d-sm-block">
+                    <Link href="/sign-in">
+                      <a className="e-btn">Login</a>
                     </Link>
+
+
+                    <Link href="/sign-up">
+                      <a className="e-btn">Register</a>
+                    </Link>
+
+
                   </div>
                   <div className="sidebar__menu d-xl-none">
                     <div

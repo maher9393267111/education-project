@@ -54,7 +54,7 @@ class About extends Component {
                         alt="img not found"
                       />
                     </span>{" "}
-                    with Educal{" "}
+                    with {" "}
                   </h2>
                   <p>
                     Lost the plot bobby such a fibber bleeding bits and bobs

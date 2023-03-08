@@ -35,7 +35,7 @@ const HeaderFour = () => {
     <React.Fragment>
       <Head>
         <title>
-          Educal – Online Course and Education React, Nextjs Template
+           – Online Course and Education React, Nextjs Template
         </title>
         <link
           href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"

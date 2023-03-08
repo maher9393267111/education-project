@@ -157,7 +157,7 @@ class CourseDetailsMain extends Component {
                                 <span>Discription</span>{" "}
                               </button>
                             </Tab>
-                            <Tab>
+                            {/* <Tab>
                               <button className="nav-link" type="button">
                                 {" "}
                                 <i className="fas fa-book"></i>{" "}
@@ -177,7 +177,7 @@ class CourseDetailsMain extends Component {
                                 <i className="fas fa-user"></i>{" "}
                                 <span>Members</span>{" "}
                               </button>
-                            </Tab>
+                            </Tab> */}
                           </TabList>
                         </ul>
                       </div>
@@ -803,9 +803,9 @@ class CourseDetailsMain extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-4 col-lg-4">
+                {/* <div className="col-xxl-4 col-xl-4 col-lg-4">
                   <CourseSidebar />
-                </div>
+                </div> */}
               </div>
             </div>
           </section>

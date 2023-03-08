@@ -8,7 +8,7 @@ const FooterBottom = () => {
         <div className="row">
           <div className="col-xxl-12">
             <div className="footer__copyright text-center">
-              <p>© 2022 Educal, All Rights Reserved.</p>
+              <p>© 2022 , All Rights Reserved.</p>
             </div>
           </div>
         </div>
